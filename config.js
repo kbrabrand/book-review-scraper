@@ -1,4 +1,4 @@
 module.exports = {
-    sources: ['vg'],
+    sources: ['vg', 'verdens-gang'],
     outputFolder: 'output'
 };
