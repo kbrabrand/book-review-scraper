@@ -5,5 +5,5 @@ var config         = require('./config'),
     boknett        = new ScraperBoknett();
 
 boknett.getReviewUrls(200, config.sources, function(err, urls) {
-
+    console.log(urls);
 });
